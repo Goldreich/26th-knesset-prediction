@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A seat forecast for Israel's next Knesset, with uncertainty ranges, a majority explorer and source polls.">
+  <title>26th Knesset Prediction</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to forecast</a>
+  <header class="site-header">
+    <a class="brand" href="#main" aria-label="26th Knesset Prediction home">26th Knesset Prediction</a>
+    <nav aria-label="Main navigation"><a href="#forecast">Mean prediction</a><a href="#modal-outcome">Most likely scenario</a><a href="#majority">Majorities</a><a href="#sources">Polls</a><a href="#method">Method</a></nav>
+  </header>
+  <main id="main">
+    <p id="load-error" class="notice" role="alert" hidden>The forecast could not be loaded. Please try again shortly.</p>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="eyebrow">ISRAEL · ELECTION <span id="election-date">2026</span></div>
+      <div class="hero-grid">
+        <div><h1 id="page-title">26th Knesset<br>Prediction</h1><p class="hero-copy">The mean prediction and most likely exact parliament, with uncertainty ranges.</p><p class="updated">As of <time id="as-of">—</time></p><p class="fine ballot-note">Based on the reported, provisional ballot.</p></div>
+        <aside class="at-a-glance" aria-label="Forecast at a glance"><div><strong id="poll-count">—</strong><span>national polls</span></div><div><strong id="seat-count">120</strong><span>seats to allocate</span></div><div><strong id="majority-count">61</strong><span>seats for a majority</span></div><p>Read the ranges alongside the averages. A party’s final result can differ substantially from its expected seats.</p></aside>
+      </div>
+    </section>
+
+    <section id="forecast" class="section" aria-labelledby="forecast-title">
+      <div class="section-heading"><div><div class="eyebrow">THE SEAT PREDICTION</div><h2 id="forecast-title">Mean prediction</h2></div><a id="download-forecast" class="download-link" download="knesset-seat-forecast.csv">Download mean table <span aria-hidden="true">↗</span></a></div>
+      <p class="section-intro">Compare average seats with the <a href="#modal-outcome">most likely scenario</a>: one complete 120-seat parliament. The line shows each party’s central 80% range.</p>
+      <div class="forecast-table-wrap">
+        <table class="forecast-table"><caption class="sr-only">Mean predicted seats, seats in the most likely joint scenario, and central 80 percent uncertainty intervals</caption><thead><tr><th scope="col">Party / list</th><th scope="col" class="number">Mean seats</th><th scope="col" class="number scenario-column">Most likely scenario</th><th scope="col" class="range-heading"><span>80% range</span><span id="range-scale" class="range-scale" aria-hidden="true"></span></th></tr></thead><tbody id="forecast-rows"></tbody></table>
+      </div>
+      <div class="table-footer"><p id="forecast-scope-note" class="fine"></p><button id="show-all-lists" class="text-button" type="button" aria-expanded="false" aria-controls="forecast-rows">Show all lists</button></div>
+      <p class="fine forecast-note">Expected seats may be fractional. These are separate party ranges; their endpoints do not add up to a parliament. All simulated parliaments have 120 seats.</p>
+    </section>
+
+    <section id="modal-outcome" class="section" aria-labelledby="mode-title" hidden>
+      <div class="section-heading"><div><div class="eyebrow">ESTIMATED JOINT MODE · 120 SEATS</div><h2 id="mode-title">Most likely scenario</h2></div></div>
+      <p id="mode-probability" class="section-intro"></p>
+      <div class="source-table-wrap"><table><caption class="sr-only">Estimated joint modal parliament, totaling 120 seats</caption><thead><tr><th scope="col">Party / list</th><th scope="col" class="number">Seats</th></tr></thead><tbody id="mode-rows"></tbody><tfoot><tr><th scope="row">Total</th><td class="number">120</td></tr></tfoot></table></div>
+      <p id="mode-alternative" class="fine"></p><p id="mode-note" class="fine"></p>
+    </section>
+
+    <section id="majority" class="section majority-section" aria-labelledby="majority-title">
+      <div class="section-heading"><div><div class="eyebrow">EXPLORE A MAJORITY</div><h2 id="majority-title">Which lists, together?</h2></div><p>Choose any collection of lists to see its chance of reaching 61 seats.</p></div>
+      <div class="majority-grid">
+        <div class="party-picker"><label class="search-label" for="group-search">Find a party or list<input id="group-search" type="search" placeholder="Search by name" autocomplete="off"></label><div id="group-options" role="group" aria-label="Select lists for the majority calculation"></div><p id="group-search-empty" class="fine" hidden>No lists match this search.</p><button id="group-clear" class="text-button" type="button">Clear selection</button></div>
+        <aside class="majority-result" aria-live="polite" aria-atomic="true"><span class="result-label">CHANCE OF AT LEAST 61 SEATS</span><strong id="group-probability">—</strong><p id="group-result">Select lists to explore a possible majority.</p><div class="group-mean-row"><span>Expected seats together</span><strong id="group-mean">—</strong></div><p id="group-selected-names" class="selected-names"></p><p id="group-note" class="fine">This estimates a seat majority. Government formation also depends on negotiations, which are not modeled.</p></aside>
+      </div>
+    </section>
+
+    <section id="sources" class="section" aria-labelledby="sources-title">
+      <div class="section-heading"><div><div class="eyebrow">SOURCE POLLS</div><h2 id="sources-title">What goes into the forecast</h2></div><p>National polling disclosures. Each entry links to its source report.</p></div>
+      <div class="source-table-wrap"><table><caption class="sr-only">Source polls, research firms, dates and sample sizes</caption><thead><tr><th scope="col">Publication / pollster</th><th scope="col">Survey dates</th><th scope="col" class="number">Sample size</th></tr></thead><tbody id="source-rows"></tbody></table></div>
+    </section>
+
+    <section id="method" class="section method-section" aria-labelledby="method-title">
+      <div class="section-heading"><div><div class="eyebrow">HOW TO READ IT</div><h2 id="method-title">A forecast, with limits</h2></div></div>
+      <div class="method-grid"><div><h3>From polls to possible parliaments</h3><p id="methods-summary">Loading the forecast method.</p><p>The dynamic voting-intention model adapts <a href="https://www.marcel-neunhoeffer.com/pdf/papers/pa_forecast-multiparty.pdf">Stoetzer and colleagues’ multiparty approach</a>. It includes pollster effects and election-day uncertainty, but does not include their fundamentals model. Published seat totals are never converted into votes.</p></div><div><h3>What remains uncertain</h3><ul id="limitations"></ul></div></div>
+    </section>
+  </main>
+  <footer><a class="brand-footer" href="#main">26th Knesset Prediction</a><p>Independent, nonpartisan election research.</p><a href="#sources">Sources</a><a href="#method">Method and limitations</a></footer>
+</body>
+</html>

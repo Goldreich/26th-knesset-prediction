@@ -1,0 +1,334 @@
+{
+  "agreements": [
+    [
+      "2019a:מחל",
+      "2019a:טב"
+    ],
+    [
+      "2019a:נ",
+      "2019a:ל"
+    ],
+    [
+      "2019a:מרצ",
+      "2019a:אמת"
+    ],
+    [
+      "2019a:ג",
+      "2019a:שס"
+    ],
+    [
+      "2019a:ום",
+      "2019a:דעם"
+    ]
+  ],
+  "election_date": "2019-04-09",
+  "election_id": "2019a",
+  "invalid_votes": 30983,
+  "lists": [
+    {
+      "id": "2019a:מחל",
+      "name_en": "Likud",
+      "name_he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+      "seats": 35,
+      "votes": 1140370
+    },
+    {
+      "id": "2019a:פה",
+      "name_en": "Blue and White",
+      "name_he": "כחול לבן בראשות בני גנץ ויאיר לפיד",
+      "seats": 35,
+      "votes": 1125881
+    },
+    {
+      "id": "2019a:שס",
+      "name_en": "Shas",
+      "name_he": "התאחדות הספרדים שומרי התורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+      "seats": 8,
+      "votes": 258275
+    },
+    {
+      "id": "2019a:ג",
+      "name_en": "United Torah Judaism",
+      "name_he": "יהדות התורה והשבת אגודת ישראל - דגל התורה",
+      "seats": 8,
+      "votes": 249049
+    },
+    {
+      "id": "2019a:ום",
+      "name_en": "Hadash-Ta'al",
+      "name_he": "חד\"ש תע\"ל בראשות איימן עודה ואחמד טיבי",
+      "seats": 6,
+      "votes": 193442
+    },
+    {
+      "id": "2019a:אמת",
+      "name_en": "Labor",
+      "name_he": "מפלגת העבודה בראשות אבי גבאי",
+      "seats": 6,
+      "votes": 190870
+    },
+    {
+      "id": "2019a:ל",
+      "name_en": "Yisrael Beiteinu",
+      "name_he": "ישראל ביתנו",
+      "seats": 5,
+      "votes": 173004
+    },
+    {
+      "id": "2019a:טב",
+      "name_en": "Union of Right-Wing Parties",
+      "name_he": "איחוד מפלגות הימין הבית היהודי-האיחוד הלאומי- עוצמה יהודית",
+      "seats": 5,
+      "votes": 159468
+    },
+    {
+      "id": "2019a:מרצ",
+      "name_en": "Meretz",
+      "name_he": "מרצ- השמאל של ישראל",
+      "seats": 4,
+      "votes": 156473
+    },
+    {
+      "id": "2019a:כ",
+      "name_en": "Kulanu",
+      "name_he": "כולנו הימין השפוי בראשות משה כחלון",
+      "seats": 4,
+      "votes": 152756
+    },
+    {
+      "id": "2019a:דעם",
+      "name_en": "Ra'am-Balad",
+      "name_he": "רע\"ם-בל\"ד הרשימה הערבית המאוחדת ברית לאומית דמוקרטית",
+      "seats": 4,
+      "votes": 143666
+    },
+    {
+      "id": "2019a:נ",
+      "name_en": "New Right",
+      "name_he": "הימין החדש בראשות שקד ובנט",
+      "seats": 0,
+      "votes": 138598
+    },
+    {
+      "id": "2019a:ז",
+      "name_en": "Zehut",
+      "name_he": "זהות - תנועה ישראלית יהודית בהנהגת משה פייגלין",
+      "seats": 0,
+      "votes": 118031
+    },
+    {
+      "id": "2019a:נר",
+      "name_en": "Gesher",
+      "name_he": "גשר בראשות אורלי לוי אבקסיס",
+      "seats": 0,
+      "votes": 74701
+    },
+    {
+      "id": "2019a:ן",
+      "name_en": "List ן",
+      "name_he": "בט\"ח-ביטחון חברתי בראשות סמיון גרפמן",
+      "seats": 0,
+      "votes": 4618
+    },
+    {
+      "id": "2019a:ר",
+      "name_en": "List ר",
+      "name_he": "הרשימה הערבית בראשות מוחמד כנעאן",
+      "seats": 0,
+      "votes": 4135
+    },
+    {
+      "id": "2019a:צק",
+      "name_en": "List צק",
+      "name_he": "צדק חברתי",
+      "seats": 0,
+      "votes": 3843
+    },
+    {
+      "id": "2019a:נץ",
+      "name_en": "List נץ",
+      "name_he": "מגן בראשות גל הירש",
+      "seats": 0,
+      "votes": 3394
+    },
+    {
+      "id": "2019a:ק",
+      "name_en": "List ק",
+      "name_he": "צדק לכל כי הגיעה העת למען החי.האדם.והאדמה",
+      "seats": 0,
+      "votes": 3281
+    },
+    {
+      "id": "2019a:זץ",
+      "name_en": "List זץ",
+      "name_he": "אורן חזן בראשות \"צומת\"",
+      "seats": 0,
+      "votes": 2417
+    },
+    {
+      "id": "2019a:י",
+      "name_en": "List י",
+      "name_he": "ישר - דמוקרטיה אמיתית",
+      "seats": 0,
+      "votes": 1438
+    },
+    {
+      "id": "2019a:נז",
+      "name_en": "List נז",
+      "name_he": "זכויותינו בקולנו",
+      "seats": 0,
+      "votes": 1316
+    },
+    {
+      "id": "2019a:זי",
+      "name_en": "List זי",
+      "name_he": "מפלגת האזרחים הוותיקים",
+      "seats": 0,
+      "votes": 1168
+    },
+    {
+      "id": "2019a:קף",
+      "name_en": "List קף",
+      "name_he": "כל ישראל אחים ופעולה לישראל",
+      "seats": 0,
+      "votes": 1140
+    },
+    {
+      "id": "2019a:ףז",
+      "name_en": "List ףז",
+      "name_he": "הפיראטים בראשות האינטרנט פתק לשלשול",
+      "seats": 0,
+      "votes": 819
+    },
+    {
+      "id": "2019a:ףי",
+      "name_en": "List ףי",
+      "name_he": "פשוט אהבה - כי כולן/ם בני אדם",
+      "seats": 0,
+      "votes": 733
+    },
+    {
+      "id": "2019a:קי",
+      "name_en": "List קי",
+      "name_he": "ארץ ישראל שלנו",
+      "seats": 0,
+      "votes": 701
+    },
+    {
+      "id": "2019a:ףץ",
+      "name_en": "List ףץ",
+      "name_he": "נ נח - הרשימה הממלכתית - תרימו את הראש",
+      "seats": 0,
+      "votes": 624
+    },
+    {
+      "id": "2019a:קן",
+      "name_en": "List קן",
+      "name_he": "מהתחלה",
+      "seats": 0,
+      "votes": 603
+    },
+    {
+      "id": "2019a:ךק",
+      "name_en": "List ךק",
+      "name_he": "התקווה לשינוי",
+      "seats": 0,
+      "votes": 562
+    },
+    {
+      "id": "2019a:ץ",
+      "name_en": "List ץ",
+      "name_he": "כלכלה ירוקה -מדינה אחת",
+      "seats": 0,
+      "votes": 556
+    },
+    {
+      "id": "2019a:ףך",
+      "name_en": "List ףך",
+      "name_he": "חינוך",
+      "seats": 0,
+      "votes": 518
+    },
+    {
+      "id": "2019a:יץ",
+      "name_en": "List יץ",
+      "name_he": "אחריות למייסדים בראשות חיים דיין",
+      "seats": 0,
+      "votes": 428
+    },
+    {
+      "id": "2019a:ןך",
+      "name_en": "List ןך",
+      "name_he": "כבוד האדם",
+      "seats": 0,
+      "votes": 404
+    },
+    {
+      "id": "2019a:ףנ",
+      "name_en": "List ףנ",
+      "name_he": "שווים",
+      "seats": 0,
+      "votes": 401
+    },
+    {
+      "id": "2019a:ןנ",
+      "name_en": "List ןנ",
+      "name_he": "מנהיגות חברתית",
+      "seats": 0,
+      "votes": 385
+    },
+    {
+      "id": "2019a:ץי",
+      "name_en": "List ץי",
+      "name_he": "אני ואתה-מפלגת העם הישראלית בהובלת דר' אלון גלעדי",
+      "seats": 0,
+      "votes": 368
+    },
+    {
+      "id": "2019a:יז",
+      "name_en": "List יז",
+      "name_he": "מפלגת הגוש התנ\"כי",
+      "seats": 0,
+      "votes": 353
+    },
+    {
+      "id": "2019a:ין",
+      "name_en": "List ין",
+      "name_he": "איחוד בני הברית בראשות רב חובל בשארה שליאן",
+      "seats": 0,
+      "votes": 265
+    },
+    {
+      "id": "2019a:זך",
+      "name_en": "List זך",
+      "name_he": "ברית עולם",
+      "seats": 0,
+      "votes": 216
+    },
+    {
+      "id": "2019a:ץז",
+      "name_en": "List ץז",
+      "name_he": "אופק חדש בכבוד",
+      "seats": 0,
+      "votes": 0
+    },
+    {
+      "id": "2019a:זנ",
+      "name_en": "List זנ",
+      "name_he": "יחד בראשות אלי ישי",
+      "seats": 0,
+      "votes": 0
+    },
+    {
+      "id": "2019a:נך",
+      "name_en": "List נך",
+      "name_he": "מפלגת הרפורמה",
+      "seats": 0,
+      "votes": 0
+    }
+  ],
+  "result_source_url": "https://votes21.bechirot.gov.il/nationalresults",
+  "seat_count": 120,
+  "threshold": 0.0325,
+  "valid_votes": 4309270
+}

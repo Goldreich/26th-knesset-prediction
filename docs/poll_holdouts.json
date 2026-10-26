@@ -1,0 +1,363 @@
+{
+  "baseline": "Latest available percentage observation per series and category, equally averaged in log-ratio coordinates",
+  "folds": [
+    {
+      "diagnostics": {
+        "algorithm": "finite-grid integrated Gaussian posterior; independent conditional draws",
+        "grid_boundary_probability": {
+          "daily_movement_sd": 7.165220549813013e-05,
+          "house_effect_sd": 2.5878447927207835e-07,
+          "measurement_multiplier": 9.02271609012758e-19
+        },
+        "hyperparameter_marginals": {
+          "daily_movement_sd": [
+            {
+              "probability": 6.95324880384888e-05,
+              "value": 0.004
+            },
+            {
+              "probability": 0.0013510739749535258,
+              "value": 0.005
+            },
+            {
+              "probability": 0.024204792617899047,
+              "value": 0.00625
+            },
+            {
+              "probability": 0.2460925750087564,
+              "value": 0.0078125
+            },
+            {
+              "probability": 0.5783893490328116,
+              "value": 0.009765625
+            },
+            {
+              "probability": 0.14736040271882636,
+              "value": 0.01220703125
+            },
+            {
+              "probability": 0.0025301544412651734,
+              "value": 0.0152587890625
+            },
+            {
+              "probability": 2.119717459641341e-06,
+              "value": 0.019073486328125
+            }
+          ],
+          "house_effect_sd": [
+            {
+              "probability": 1.9344484948932107e-15,
+              "value": 0.1
+            },
+            {
+              "probability": 1.7773665339152384e-07,
+              "value": 0.125
+            },
+            {
+              "probability": 0.00941131235691205,
+              "value": 0.15625
+            },
+            {
+              "probability": 0.738371595271271,
+              "value": 0.1953125
+            },
+            {
+              "probability": 0.2509658406693178,
+              "value": 0.244140625
+            },
+            {
+              "probability": 0.0012508151813764381,
+              "value": 0.30517578125
+            },
+            {
+              "probability": 2.5878447733762985e-07,
+              "value": 0.3814697265625
+            }
+          ],
+          "measurement_multiplier": [
+            {
+              "probability": 9.02271609012758e-19,
+              "value": 0.28
+            },
+            {
+              "probability": 4.355501553288613e-06,
+              "value": 0.315
+            },
+            {
+              "probability": 0.8473983542116834,
+              "value": 0.354375
+            },
+            {
+              "probability": 0.15259693936897245,
+              "value": 0.398671875
+            },
+            {
+              "probability": 3.5091780095161693e-07,
+              "value": 0.448505859375
+            },
+            {
+              "probability": 8.757804917659387e-17,
+              "value": 0.504569091796875
+            },
+            {
+              "probability": 1.176559546290507e-29,
+              "value": 0.5676402282714844
+            },
+            {
+              "probability": 2.7856639796593422e-45,
+              "value": 0.63859525680542
+            }
+          ]
+        },
+        "latent_parameters": 1440,
+        "max_relative_solve_residual": 2.326687523236157e-13,
+        "n_draws": 1000,
+        "observations": 54,
+        "scalar_measurements": 635,
+        "seed": 44
+      },
+      "dynamic_logratio_rmse": 0.22348502532108752,
+      "held_out_surveys": 14,
+      "latest_per_firm_logratio_rmse": 0.32900205042287284,
+      "poll_scores": [
+        {
+          "dynamic_mse": 0.019077601646046417,
+          "id": "CEC-4197",
+          "latest_per_firm_mse": 0.14325958705110314
+        },
+        {
+          "dynamic_mse": 0.08768610415199105,
+          "id": "CEC-4207",
+          "latest_per_firm_mse": 0.10188087531623
+        },
+        {
+          "dynamic_mse": 0.029728730197520814,
+          "id": "CEC-4202",
+          "latest_per_firm_mse": 0.02626478286709014
+        },
+        {
+          "dynamic_mse": 0.019066599367295253,
+          "id": "CEC-4211",
+          "latest_per_firm_mse": 0.06586393195625458
+        },
+        {
+          "dynamic_mse": 0.043890441294242195,
+          "id": "CEC-4215",
+          "latest_per_firm_mse": 0.18333300562122526
+        },
+        {
+          "dynamic_mse": 0.010304443563836307,
+          "id": "CEC-4216",
+          "latest_per_firm_mse": 0.1146087883887778
+        },
+        {
+          "dynamic_mse": 0.025191248257714276,
+          "id": "CEC-4225",
+          "latest_per_firm_mse": 0.03260524245516619
+        },
+        {
+          "dynamic_mse": 0.036644651431348096,
+          "id": "CEC-4229",
+          "latest_per_firm_mse": 0.03757525043630621
+        },
+        {
+          "dynamic_mse": 0.04950549551643053,
+          "id": "CEC-4241",
+          "latest_per_firm_mse": 0.263658494256291
+        },
+        {
+          "dynamic_mse": 0.041070835120064146,
+          "id": "CEC-4232",
+          "latest_per_firm_mse": 0.027488556443950436
+        },
+        {
+          "dynamic_mse": 0.03523592131650987,
+          "id": "CEC-4243",
+          "latest_per_firm_mse": 0.03441597821937465
+        },
+        {
+          "dynamic_mse": 0.04229092075113815,
+          "id": "CEC-4237",
+          "latest_per_firm_mse": 0.09929530821898046
+        },
+        {
+          "dynamic_mse": 0.23798639284931844,
+          "id": "CEC-4247",
+          "latest_per_firm_mse": 0.35467522637150045
+        },
+        {
+          "dynamic_mse": 0.021558406135284366,
+          "id": "CEC-4245",
+          "latest_per_firm_mse": 0.030467860952113155
+        }
+      ],
+      "training_surveys": 54,
+      "training_through": "2026-10-08"
+    },
+    {
+      "diagnostics": {
+        "algorithm": "finite-grid integrated Gaussian posterior; independent conditional draws",
+        "grid_boundary_probability": {
+          "daily_movement_sd": 1.9991260697077135e-06,
+          "house_effect_sd": 3.500203319522673e-08,
+          "measurement_multiplier": 8.515578074789526e-33
+        },
+        "hyperparameter_marginals": {
+          "daily_movement_sd": [
+            {
+              "probability": 5.265631583061545e-07,
+              "value": 0.004
+            },
+            {
+              "probability": 7.481011165736278e-05,
+              "value": 0.005
+            },
+            {
+              "probability": 0.006519544868216164,
+              "value": 0.00625
+            },
+            {
+              "probability": 0.1689568589290659,
+              "value": 0.0078125
+            },
+            {
+              "probability": 0.6335751498066698,
+              "value": 0.009765625
+            },
+            {
+              "probability": 0.188073489268863,
+              "value": 0.01220703125
+            },
+            {
+              "probability": 0.002798147889450574,
+              "value": 0.0152587890625
+            },
+            {
+              "probability": 1.4725629114015592e-06,
+              "value": 0.019073486328125
+            }
+          ],
+          "house_effect_sd": [
+            {
+              "probability": 4.926998614049461e-14,
+              "value": 0.1
+            },
+            {
+              "probability": 2.40950016110267e-06,
+              "value": 0.125
+            },
+            {
+              "probability": 0.03916283897877028,
+              "value": 0.15625
+            },
+            {
+              "probability": 0.854257233427724,
+              "value": 0.1953125
+            },
+            {
+              "probability": 0.10631346509932224,
+              "value": 0.244140625
+            },
+            {
+              "probability": 0.0002640179919818391,
+              "value": 0.30517578125
+            },
+            {
+              "probability": 3.5001983925240594e-08,
+              "value": 0.3814697265625
+            }
+          ],
+          "measurement_multiplier": [
+            {
+              "probability": 8.515578074786493e-33,
+              "value": 0.28
+            },
+            {
+              "probability": 5.837632912089741e-13,
+              "value": 0.315
+            },
+            {
+              "probability": 0.007149915773546577,
+              "value": 0.354375
+            },
+            {
+              "probability": 0.9928007724792737,
+              "value": 0.398671875
+            },
+            {
+              "probability": 4.9311746572602055e-05,
+              "value": 0.448505859375
+            },
+            {
+              "probability": 1.5820328779678785e-14,
+              "value": 0.504569091796875
+            },
+            {
+              "probability": 3.479795661393103e-28,
+              "value": 0.5676402282714844
+            },
+            {
+              "probability": 3.032508582817905e-45,
+              "value": 0.63859525680542
+            }
+          ]
+        },
+        "latent_parameters": 1440,
+        "max_relative_solve_residual": 1.2051462245035539e-13,
+        "n_draws": 1000,
+        "observations": 61,
+        "scalar_measurements": 731,
+        "seed": 44
+      },
+      "dynamic_logratio_rmse": 0.2343705033359618,
+      "held_out_surveys": 7,
+      "latest_per_firm_logratio_rmse": 0.33236258409700953,
+      "poll_scores": [
+        {
+          "dynamic_mse": 0.021324424329396435,
+          "id": "CEC-4229",
+          "latest_per_firm_mse": 0.048864533276625745
+        },
+        {
+          "dynamic_mse": 0.036958443289184024,
+          "id": "CEC-4241",
+          "latest_per_firm_mse": 0.22139473646320115
+        },
+        {
+          "dynamic_mse": 0.03908551861722919,
+          "id": "CEC-4232",
+          "latest_per_firm_mse": 0.019736381618398382
+        },
+        {
+          "dynamic_mse": 0.020751236762347865,
+          "id": "CEC-4243",
+          "latest_per_firm_mse": 0.04486189903706233
+        },
+        {
+          "dynamic_mse": 0.03978425188569926,
+          "id": "CEC-4237",
+          "latest_per_firm_mse": 0.07381656724634297
+        },
+        {
+          "dynamic_mse": 0.20719283434665772,
+          "id": "CEC-4247",
+          "latest_per_firm_mse": 0.3374835033533506
+        },
+        {
+          "dynamic_mse": 0.01941002060715005,
+          "id": "CEC-4245",
+          "latest_per_firm_mse": 0.027096590158511027
+        }
+      ],
+      "training_surveys": 61,
+      "training_through": "2026-10-15"
+    }
+  ],
+  "limitations": [
+    "Archived versions captured October 24, not proven available at earlier holdouts.",
+    "Two overlapping holdouts in one campaign do not validate election-wide error or threshold probabilities.",
+    "Partial October 22 supplement excluded from this common archived-data comparison."
+  ],
+  "target": "Later published log-ratio measurements, including fitted reporting-house effects; not election results",
+  "view": "retrospective_current_version_fieldwork_holdouts"
+}

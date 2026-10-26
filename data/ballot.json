@@ -1,0 +1,281 @@
+{
+  "agreements": [
+    [
+      "2026:רק",
+      "2026:ל"
+    ],
+    [
+      "2026:ודם",
+      "2026:עם"
+    ],
+    [
+      "2026:ט",
+      "2026:מחל"
+    ],
+    [
+      "2026:ג",
+      "2026:שס"
+    ],
+    [
+      "2026:אמת",
+      "2026:דרך"
+    ],
+    [
+      "2026:זץ",
+      "2026:נקי"
+    ]
+  ],
+  "aliases": {
+    "AMHA_ISRAEL": "2026:ך",
+    "BEYAHAD": "2026:רק",
+    "BLUE_WHITE": "2026:כן",
+    "DEMOCRATS": "2026:אמת",
+    "HENDEL_ZELEKHA": "2026:די",
+    "JOINT_LIST": "2026:ודם",
+    "LIKUD": "2026:מחל",
+    "NOAM": "2026:ני",
+    "OTZMA_YEHUDIT": "2026:ב",
+    "RAAM": "2026:עם",
+    "RELIGIOUS_ZIONISM": "2026:ט",
+    "SHAS": "2026:שס",
+    "UTJ": "2026:ג",
+    "YASHAR": "2026:דרך",
+    "YISRAEL_BEITENU": "2026:ל",
+    "ZIBUR_HAREDI": "2026:זך"
+  },
+  "assumptions": [
+    "The 38 listed electoral lists exhaust the approved roster.",
+    "Blue and White withdrawal is effective as reported on 21 October.",
+    "No additional whole-list withdrawals or disqualifications apply at the snapshot."
+  ],
+  "list_ids": [
+    "2026:מחל",
+    "2026:אמת",
+    "2026:דרך",
+    "2026:שס",
+    "2026:ג",
+    "2026:ודם",
+    "2026:רק",
+    "2026:עם",
+    "2026:די",
+    "2026:ב",
+    "2026:ל",
+    "2026:ט",
+    "2026:צף",
+    "2026:קך",
+    "2026:ך",
+    "2026:נר",
+    "2026:ני",
+    "2026:קה",
+    "2026:בקר",
+    "2026:נקי",
+    "2026:ק",
+    "2026:בי",
+    "2026:זך",
+    "2026:י",
+    "2026:צדק",
+    "2026:זץ",
+    "2026:צבי",
+    "2026:בד",
+    "2026:קץ",
+    "2026:רץ",
+    "2026:ד",
+    "2026:ה",
+    "2026:פה",
+    "2026:נץ",
+    "2026:יק",
+    "2026:ז",
+    "2026:נף"
+  ],
+  "lists": [
+    {
+      "id": "2026:מחל",
+      "name_en": "Likud",
+      "name_he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה"
+    },
+    {
+      "id": "2026:אמת",
+      "name_en": "The Democrats",
+      "name_he": "הדמוקרטים בראשות יאיר גולן"
+    },
+    {
+      "id": "2026:דרך",
+      "name_en": "Yashar! with Eisenkot",
+      "name_he": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל"
+    },
+    {
+      "id": "2026:שס",
+      "name_en": "Shas",
+      "name_he": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל"
+    },
+    {
+      "id": "2026:ג",
+      "name_en": "United Torah Judaism",
+      "name_he": "יהדות התורה והשבת אגודת ישראל – דגל התורה"
+    },
+    {
+      "id": "2026:ודם",
+      "name_en": "Joint List",
+      "name_he": "הרשימה המשותפת"
+    },
+    {
+      "id": "2026:רק",
+      "name_en": "Together",
+      "name_he": "ביחד בראשות נפתלי בנט"
+    },
+    {
+      "id": "2026:עם",
+      "name_en": "Ra'am",
+      "name_he": "רע\"ם – הרשימה הערבית המאוחדת"
+    },
+    {
+      "id": "2026:די",
+      "name_en": "Reservists and Economic",
+      "name_he": "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה"
+    },
+    {
+      "id": "2026:ב",
+      "name_en": "Otzma Yehudit",
+      "name_he": "עוצמה יהודית בראשות איתמר בן גביר"
+    },
+    {
+      "id": "2026:ל",
+      "name_en": "Yisrael Beiteinu",
+      "name_he": "ישראל ביתנו בראשות אביגדור ליברמן"
+    },
+    {
+      "id": "2026:ט",
+      "name_en": "Religious Zionism–Zehut",
+      "name_he": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין"
+    },
+    {
+      "id": "2026:צף",
+      "name_en": "The Pirates",
+      "name_he": "הפיראטים – צפים לטוב"
+    },
+    {
+      "id": "2026:קך",
+      "name_en": "New Order",
+      "name_he": "סדר-חדש לכינון חוקה, להפרדת רשויות ולבחירות אישיות"
+    },
+    {
+      "id": "2026:ך",
+      "name_en": "Amcha Yisrael",
+      "name_he": "עמך ישראל בראשות עופר וינטר"
+    },
+    {
+      "id": "2026:נר",
+      "name_en": "Black Color",
+      "name_he": "צבע שחור – מגן עולם התורה"
+    },
+    {
+      "id": "2026:ני",
+      "name_en": "Noam",
+      "name_he": "נעם לישראל למען עתיד הילדים בראשות אבי מעוז"
+    },
+    {
+      "id": "2026:קה",
+      "name_en": "Women's Voice",
+      "name_he": "קול הנשים"
+    },
+    {
+      "id": "2026:בקר",
+      "name_en": "Lights of Dawn",
+      "name_he": "אורות השחר בראשות ניסים לוק"
+    },
+    {
+      "id": "2026:נקי",
+      "name_en": "Reform of Elections and Government",
+      "name_he": "התיקון לשיטת הבחירות והממשל"
+    },
+    {
+      "id": "2026:ק",
+      "name_en": "Tkuma",
+      "name_he": "תקומה"
+    },
+    {
+      "id": "2026:בי",
+      "name_en": "Tzomet Beit Yisrael",
+      "name_he": "צומת בית ישראל"
+    },
+    {
+      "id": "2026:זך",
+      "name_en": "Haredi Public",
+      "name_he": "הציבור החרדי בראשות מוטי ליטנר"
+    },
+    {
+      "id": "2026:י",
+      "name_en": "Israel First",
+      "name_he": "ישראל תחילה בראשות שרן השכל"
+    },
+    {
+      "id": "2026:צדק",
+      "name_en": "Sharshar for Love and Unity",
+      "name_he": "שרשר לאהבה ואחדות העם"
+    },
+    {
+      "id": "2026:זץ",
+      "name_en": "Brit Olam",
+      "name_he": "ברית עולם לגאולת ישראל"
+    },
+    {
+      "id": "2026:צבי",
+      "name_en": "Ahi Movement",
+      "name_he": "תנועת אחי תנועתו של הרב יורם אברג'ל זצ\"ל"
+    },
+    {
+      "id": "2026:בד",
+      "name_en": "Together We Succeed",
+      "name_he": "מפלגת ביחד נצליח – רשימה משותפת ערבית יהודית בראשות אבי שקד"
+    },
+    {
+      "id": "2026:קץ",
+      "name_en": "Mishpat Tzedek",
+      "name_he": "משפט צדק"
+    },
+    {
+      "id": "2026:רץ",
+      "name_en": "Hakhel",
+      "name_he": "הקהל – מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים"
+    },
+    {
+      "id": "2026:ד",
+      "name_en": "Partnership for All",
+      "name_he": "השותפות לכולם"
+    },
+    {
+      "id": "2026:ה",
+      "name_en": "Garden of Eden",
+      "name_he": "גן עדן בראשות ישוע ישראל בן דוד"
+    },
+    {
+      "id": "2026:פה",
+      "name_en": "You and I",
+      "name_he": "אני ואתה מפלגת העם הישראלית"
+    },
+    {
+      "id": "2026:נץ",
+      "name_en": "Personal Security",
+      "name_he": "ביטחון אישי"
+    },
+    {
+      "id": "2026:יק",
+      "name_en": "Bible Bloc",
+      "name_he": "גה\"ת – גוש התנ\"כי"
+    },
+    {
+      "id": "2026:ז",
+      "name_en": "Betah – Social Security",
+      "name_he": "בטח – בטחון חברתי בראשות סמיון גרפמן"
+    },
+    {
+      "id": "2026:נף",
+      "name_en": "Shema",
+      "name_he": "שמע בראשות נפתלי גולדמן"
+    }
+  ],
+  "residual_mass": 0.007,
+  "seats": 120,
+  "status": "conditional_37_list_ballot",
+  "threshold": 0.0325
+}

@@ -1,0 +1,56 @@
+{
+  "assumptions": [
+    "Uses archived secondary transcriptions linked to original filings; all original tables have not been independently verified.",
+    "Published national percentage ratios are treated as comparable conditional voting intentions. Undecided and turnout differences remain a forecast assumption.",
+    "Seat-derived percentages and secondary subgroup reconstructions are excluded from the vote likelihood; their seat reports remain archived separately.",
+    "Daily correlated log-ratio states and sum-zero pollster effects are fitted jointly. Sampling design effect, reporting floor and variance-grid priors are explicit assumptions.",
+    "No fundamentals regression has been fitted. The initial state prior is broad, and election-wide error has only one retrospective vote-percentage calibration election.",
+    "Assumes the reported 37-list ballot and the six reviewed surplus agreements. Blue and White supporters leave the valid-vote denominator proportionally; no successor transfer is inferred.",
+    "Unmeasured minor lists share an assumed 0.7 percent valid-vote mass equally in the reference, with separate 0.2 and 2 percent scenarios.",
+    "This is a conditional pre-election forecast at the specified snapshot, not a verified official final-poll freeze or a validated claim of improved election accuracy."
+  ],
+  "election_date": "2026-10-27",
+  "grid": {
+    "h_grid": [
+      0.1,
+      0.125,
+      0.15625,
+      0.1953125,
+      0.244140625,
+      0.30517578125,
+      0.3814697265625
+    ],
+    "q_grid": [
+      0.004,
+      0.005,
+      0.00625,
+      0.0078125,
+      0.009765625,
+      0.01220703125,
+      0.0152587890625,
+      0.019073486328125
+    ],
+    "s_grid": [
+      0.28,
+      0.315,
+      0.354375,
+      0.398671875,
+      0.448505859375,
+      0.504569091796875,
+      0.5676402282714844,
+      0.63859525680542
+    ]
+  },
+  "information_cutoff": "2026-10-24T17:37:50+03:00",
+  "lineup_breaks": [
+    "2026-08-19",
+    "2026-08-25",
+    "2026-09-01",
+    "2026-09-06",
+    "2026-10-21"
+  ],
+  "n_draws": 4000,
+  "seed": 26024,
+  "shared_prior_sd": 0.12,
+  "start_date": "2026-07-29"
+}

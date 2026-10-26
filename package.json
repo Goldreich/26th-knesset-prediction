@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "linkedom": "0.18.12"
+  },
+  "name": "26th-knesset-prediction",
+  "private": true,
+  "scripts": {
+    "test": "node tests/dashboard.cjs"
+  },
+  "version": "0.1.0"
+}

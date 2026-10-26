@@ -1,0 +1,106 @@
+{
+  "election_id": "2022",
+  "poll_source_url": "https://www.gov.il/BlobFolder/generalpage/survey25-2/he/survey_hadashut_seker28_10.pdf",
+  "prior_scale": 0.0288,
+  "prior_shape": 3,
+  "result_source_url": "https://votes25.bechirot.gov.il/nationalresults",
+  "rows": [
+    {
+      "actual_share": 0.23408108980507233,
+      "list_id": "2022:מחל",
+      "name": "Likud",
+      "reported_percent": 24.1
+    },
+    {
+      "actual_share": 0.17785538020736485,
+      "list_id": "2022:פה",
+      "name": "Yesh Atid",
+      "reported_percent": 19.2
+    },
+    {
+      "actual_share": 0.108394116617437,
+      "list_id": "2022:ט",
+      "name": "Religious Zionism-Otzma Yehudit",
+      "reported_percent": 10.9
+    },
+    {
+      "actual_share": 0.09076713912316764,
+      "list_id": "2022:כן",
+      "name": "National Unity",
+      "reported_percent": 8.6
+    },
+    {
+      "actual_share": 0.0824733007579424,
+      "list_id": "2022:שס",
+      "name": "Shas",
+      "reported_percent": 5.9
+    },
+    {
+      "actual_share": 0.05880570238640413,
+      "list_id": "2022:ג",
+      "name": "United Torah Judaism",
+      "reported_percent": 5.5
+    },
+    {
+      "actual_share": 0.0448475489333945,
+      "list_id": "2022:ל",
+      "name": "Yisrael Beiteinu",
+      "reported_percent": 4.8
+    },
+    {
+      "actual_share": 0.03693631260622296,
+      "list_id": "2022:אמת",
+      "name": "Labor",
+      "reported_percent": 4.2
+    },
+    {
+      "actual_share": 0.03164767368306615,
+      "list_id": "2022:מרצ",
+      "name": "Meretz",
+      "reported_percent": 4.0
+    },
+    {
+      "actual_share": 0.04072560487010629,
+      "list_id": "2022:עם",
+      "name": "Ra'am",
+      "reported_percent": 3.4
+    },
+    {
+      "actual_share": 0.03751199960039809,
+      "list_id": "2022:ום",
+      "name": "Hadash-Ta'al",
+      "reported_percent": 3.3
+    },
+    {
+      "actual_share": 0.02909223626378931,
+      "list_id": "2022:ד",
+      "name": "Balad",
+      "reported_percent": 1.6
+    },
+    {
+      "actual_share": 0.011915650417168442,
+      "list_id": "2022:ב",
+      "name": "Jewish Home",
+      "reported_percent": 1.5
+    },
+    {
+      "actual_share": 0.0029214593360983657,
+      "list_id": "2022:יז",
+      "name": "New Economic Party",
+      "reported_percent": 0.9
+    },
+    {
+      "actual_share": 0.0018468995802920704,
+      "list_id": "2022:צ",
+      "name": "Fiery Youth",
+      "reported_percent": 0.6
+    },
+    {
+      "actual_share": 0.003316234121385796,
+      "list_id": "2022:אצ",
+      "name": "Economic Freedom",
+      "reported_percent": 0.6
+    }
+  ],
+  "view": "retrospective_current_version"
+}
