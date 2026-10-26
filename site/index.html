@@ -12,7 +12,7 @@
   <a class="skip" href="#main">Skip to forecast</a>
   <header class="site-header">
     <a class="brand" href="#main" aria-label="26th Knesset Prediction home">26th Knesset Prediction</a>
-    <nav aria-label="Main navigation"><a href="#forecast">Mean prediction</a><a href="#modal-outcome">Most likely scenario</a><a href="#majority">Majorities</a><a href="#sources">Polls</a><a href="#method">Method</a></nav>
+    <nav aria-label="Main navigation"><a href="#forecast">Scenarios</a><a href="#majority">Majorities</a><a href="#sources">Polls</a><a href="#method">Method</a></nav>
   </header>
   <main id="main">
     <p id="load-error" class="notice" role="alert" hidden>The forecast could not be loaded. Please try again shortly.</p>
@@ -25,20 +25,17 @@
     </section>
 
     <section id="forecast" class="section" aria-labelledby="forecast-title">
-      <div class="section-heading"><div><div class="eyebrow">THE SEAT PREDICTION</div><h2 id="forecast-title">Mean prediction</h2></div><a id="download-forecast" class="download-link" download="knesset-seat-forecast.csv">Download mean table <span aria-hidden="true">↗</span></a></div>
-      <p class="section-intro">Compare average seats with the <a href="#modal-outcome">most likely scenario</a>: one complete 120-seat parliament. The line shows each party’s central 80% range.</p>
+      <div class="section-heading"><div><div class="eyebrow">THE SEAT PREDICTION</div><h2 id="forecast-title">Mean and most likely scenarios</h2></div><a id="download-forecast" class="download-link" download="knesset-seat-forecast.csv">Download mean table <span aria-hidden="true">↗</span></a></div>
+      <p class="section-intro">Compare average seats with the most likely scenario: one complete 120-seat parliament. The line shows each party’s central 80% range.</p>
       <div class="forecast-table-wrap">
         <table class="forecast-table"><caption class="sr-only">Mean predicted seats, seats in the most likely joint scenario, and central 80 percent uncertainty intervals</caption><thead><tr><th scope="col">Party / list</th><th scope="col" class="number">Mean seats</th><th scope="col" class="number scenario-column">Most likely scenario</th><th scope="col" class="range-heading"><span>80% range</span><span id="range-scale" class="range-scale" aria-hidden="true"></span></th></tr></thead><tbody id="forecast-rows"></tbody></table>
       </div>
       <div class="table-footer"><p id="forecast-scope-note" class="fine"></p><button id="show-all-lists" class="text-button" type="button" aria-expanded="false" aria-controls="forecast-rows">Show all lists</button></div>
       <p class="fine forecast-note">Expected seats may be fractional. These are separate party ranges; their endpoints do not add up to a parliament. All simulated parliaments have 120 seats.</p>
-    </section>
-
-    <section id="modal-outcome" class="section" aria-labelledby="mode-title" hidden>
-      <div class="section-heading"><div><div class="eyebrow">ESTIMATED JOINT MODE · 120 SEATS</div><h2 id="mode-title">Most likely scenario</h2></div></div>
-      <p id="mode-probability" class="section-intro"></p>
-      <div class="source-table-wrap"><table><caption class="sr-only">Estimated joint modal parliament, totaling 120 seats</caption><thead><tr><th scope="col">Party / list</th><th scope="col" class="number">Seats</th></tr></thead><tbody id="mode-rows"></tbody><tfoot><tr><th scope="row">Total</th><td class="number">120</td></tr></tfoot></table></div>
-      <p id="mode-alternative" class="fine"></p><p id="mode-note" class="fine"></p>
+      <div id="mode-details" hidden>
+        <p id="mode-probability" class="fine"></p>
+        <p id="mode-alternative" class="fine"></p><p id="mode-note" class="fine"></p>
+      </div>
     </section>
 
     <section id="majority" class="section majority-section" aria-labelledby="majority-title">

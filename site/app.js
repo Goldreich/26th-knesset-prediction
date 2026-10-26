@@ -164,11 +164,8 @@ function renderJointMode(){
   if(mode.status!=="estimated"||!Number.isFinite(mode.probability)||mode.probability<=0||mode.probability>=1)throw new Error("Invalid modal outcome");
   const ids=data.forecast.lists.map(row=>row.id),values=Object.values(mode.seats||{});
   if(Object.keys(mode.seats).length!==ids.length||!ids.every(id=>Number.isInteger(mode.seats[id])&&mode.seats[id]>=0)||values.reduce((a,b)=>a+b,0)!==120)throw new Error("Invalid modal seats");
-  $("modal-outcome").hidden=false;
+  $("mode-details").hidden=false;
   $("mode-probability").textContent="Estimated probability of this exact combination: "+(mode.probability*100).toPrecision(3)+"% — about 1 in "+number(1/mode.probability/1e6)+" million. Many other seat combinations are possible.";
-  $("mode-rows").replaceChildren();
-  const rows=[...data.forecast.lists].filter(row=>mode.seats[row.id]>0).sort((a,b)=>mode.seats[b.id]-mode.seats[a.id]||nameOf(a).localeCompare(nameOf(b)));
-  for(const row of rows){const tr=element("tr");tr.dataset.listId=row.id;tr.append(element("td",nameOf(row)),element("td",mode.seats[row.id],"number"));$("mode-rows").append(tr);}
   const runner=mode.alternatives?.[0];
   if(runner){
     const changes=data.forecast.lists.filter(row=>runner.seats[row.id]!==mode.seats[row.id]).map(row=>nameOf(row)+" "+runner.seats[row.id]+" seats");

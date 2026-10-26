@@ -72,11 +72,10 @@ async function main(){
   assert.equal(document.querySelectorAll('#forecast-rows tr').length,12);
   assert.equal(document.querySelectorAll('#source-rows tr').length,actual.sources.length);
   assert.equal(document.querySelectorAll('#group-options input').length,actual.forecast.lists.length);
-  assert.equal(document.getElementById('modal-outcome').hidden,false);
-  const modeRows=[...document.querySelectorAll('#mode-rows tr')];
-  assert.equal(modeRows.length,11);
-  assert.equal(modeRows.reduce((sum,row)=>sum+readNumber(row.querySelectorAll('td')[1]),0),120);
-  for(const row of modeRows)assert.equal(readNumber(row.querySelectorAll('td')[1]),actual.forecast.joint_mode.seats[row.getAttribute('data-list-id')]);
+  assert.equal(document.getElementById('forecast-title').textContent,'Mean and most likely scenarios');
+  assert.equal(document.getElementById('modal-outcome'),null);
+  assert.equal(document.getElementById('mode-rows'),null);
+  assert.equal(document.getElementById('mode-details').hidden,false);
   assert.ok(document.getElementById('mode-probability').textContent.includes('2.4 million'));
   event(document,window,'show-all-lists','click');
   assert.equal(document.querySelectorAll('#forecast-rows tr').length,actual.forecast.lists.length);
