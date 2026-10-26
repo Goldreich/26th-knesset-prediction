@@ -2,7 +2,7 @@
 
 A Bayesian election forecast that turns national polling measurements into a joint distribution over votes and all 120 Knesset seats. The dashboard presents expected seats, uncertainty intervals, majority probabilities, and an estimated most probable exact parliament.
 
-This public portfolio edition includes the numerical model, reproducible inputs, tests, technical documentation, and a self-contained static dashboard. Its fixed snapshot uses information captured by **24 October 2026, 17:37:50 Israel time**, targeting **27 October 2026**. It is an experimental forecast conditional on a specified 37-list ballot, not an official final forecast or a live polling feed.
+This public portfolio edition includes the numerical model, reproducible inputs, tests, technical documentation, and a self-contained static dashboard. Its fixed snapshot uses information captured by **24 October 2026, 17:37:50 Israel time**, targeting **27 October 2026**.
 
 ## What the project demonstrates
 
@@ -14,15 +14,7 @@ This public portfolio edition includes the numerical model, reproducible inputs,
 
 ## Explore the dashboard
 
-**[Open the prediction dashboard](https://goldreich.github.io/26th-knesset-prediction/)** — no installation required.
-
-From the repository root, with Python installed:
-
-```sh
-python -m http.server 8786 --directory site
-```
-
-Open **http://localhost:8786**. The included forecast is ready to view; no model fit or Node build is needed. GitHub Pages serves only `site/`; the deployment workflow checks the dashboard before publishing changes to that directory on `main`.
+**[Open the prediction dashboard](https://goldreich.github.io/26th-knesset-prediction/)**
 
 ## Reproduce the prediction
 
