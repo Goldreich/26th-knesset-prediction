@@ -2,7 +2,7 @@
 
 A Bayesian election forecast that turns national polling measurements into a joint distribution over votes and all 120 Knesset seats. The dashboard presents expected seats, uncertainty intervals, majority probabilities, and an estimated most probable exact parliament.
 
-This public portfolio edition includes the numerical model, reproducible inputs, tests, technical documentation, and a self-contained static dashboard. Its fixed snapshot uses information captured by **24 October 2026, 17:37:50 Israel time**, targeting **27 October 2026**.
+This public portfolio edition includes the numerical model, reproducible inputs, tests, technical documentation, and a self-contained static dashboard. Its fixed snapshot uses information captured by **24 October 2026, 17:37:50 Israel time**, past the final legal poll publication time.
 
 ## What the project demonstrates
 
